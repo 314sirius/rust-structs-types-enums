@@ -14,6 +14,6 @@ fn main() {
     println!("{:?}", v);
 
     // insert items at a given index
-    v.insert(0, 0);
+    v.insert(0, 10);
     println!("{:?}", v); // Output: [0, 1, 2, 3, 4, 5, 6, 7, 8] 
 }
